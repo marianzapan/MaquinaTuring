@@ -3,8 +3,8 @@ from mt import *
 #Inversión de bits (igual que en tabla)
 funcionTransicion = {("q0","0"):("1", "R", "q0"),
                      ("q0","1"):("0", "R", "q0"),
-                     ("q0"," "):(" ", " ", "qfinal")}
-qfinales = {"qfinal"}
+                     ("q0"," "):(" ", " ", "qf")}
+qfinales = {"qf"}
 
 mt = MT("1010101011110 ", q0="q0", qfinales=qfinales, funcionTransicion=funcionTransicion)
 
