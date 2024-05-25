@@ -21,7 +21,7 @@ class Cinta:
 class MT:
     def __init__(self, cinta ="", simbolo_enblanco = " ", q0 = "", qfinales = None, funcionTransicion = None):
         self.cinta = Cinta(cinta)
-        self.posCabeza = 0
+        self.posCabeza = 1      #Enviar símbolo en blanco antes y después de cadena en cinta.
         self.simbolo_enblanco = simbolo_enblanco
         self.estadoActual = q0
 
